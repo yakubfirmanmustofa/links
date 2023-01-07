@@ -1,155 +1,155 @@
 /* font family */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #EEEEEE;
-    font-family: 'Poppins', sans-serif;
-    transition: all .5s ease;
+  background-color: #eeeeee;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
 }
 
 .header {
-    background-color: #073C64;
-    padding: 7px 30px;
+  background-color: #26499a;
+  padding: 7px 30px;
 }
 
 .header .logo {
-    font-weight: 700;
-    font-size: 18px;
-    color: #fff;
-    margin: auto;
-    max-width: 550px;
-    width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin: auto;
+  max-width: 550px;
+  width: 100%;
 }
 
 .header .logo span {
-    color: #F9CB13;
-    font-weight: 800;
-    font-size: 30px;
+  color: #f9cb13;
+  font-weight: 800;
+  font-size: 30px;
 }
 
 .profile {
-    margin: 30px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 30px;
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
 }
 
 .profile img {
-    width: 90px;
-    border-radius: 100%;
-    margin: 0 0 20px 0;
+  width: 90px;
+  border-radius: 100%;
+  margin: 0 0 20px 0;
 }
 
 .profile h3 {
-    font-weight: 800;
-    color: #073C64;
+  font-weight: 800;
+  color: #26499a;
 }
 
 .profile h3 span {
-    color: #F9CB13;
+  color: #f9cb13;
 }
 
 .profile p {
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    color: #54595F;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #54595f;
 }
 
 .link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .link .sosmed a {
-    background-color: #0173D1;
-    color: white;
-    width: 30px;
-    height: 30px;
-    display: inline-flex;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    margin: 30px 10px;
+  background-color: #26499a;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin: 30px 10px;
 
-    transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .link .sosmed a:hover {
-    background-color: #F9CB13;
+  background-color: #f9cb13;
 }
 
 .link .sosmed a i {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .link .secon-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
 }
 
 .link .secon-link a {
-    background-color: #073C64;
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0 10px 0;
-    flex-direction: column;
-    width: 90%;
-    padding: 7px 0;
-    text-align: center;
-    border-radius: 3px;
+  background-color: #26499a;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0 10px 0;
+  flex-direction: column;
+  width: 90%;
+  padding: 7px 0;
+  text-align: center;
+  border-radius: 3px;
 }
 
 .link .secon-link a:hover {
-    background-color: #0170b9;
-    transition: all .5s ease;
+  background-color: #26499a;
+  transition: all 0.5s ease;
 }
 
 .link .secon-link p {
-    font-weight: 600;
-    font-size: 14px;
-    margin: 20px 0 10px 0;
-    color: #54595F;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 20px 0 10px 0;
+  color: #54595f;
 }
 
 .footer {
-    margin-top: 180px;
-    background-color: #073C64;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 180px;
+  background-color: #26499a;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer p {
-    color: #fff;
-    font-size: 10px;
+  color: #fff;
+  font-size: 10px;
 }
 
 .footer p span {
-    color: #F9CB13;
+  color: #f9cb13;
 }

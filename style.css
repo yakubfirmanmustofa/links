@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-  background-color: #26499a;
+  background-color: #073c64;
   padding: 7px 30px;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .profile h3 {
   font-weight: 800;
-  color: #26499a;
+  color: #073c64;
 }
 
 .profile h3 span {
@@ -78,7 +78,7 @@ body {
 }
 
 .link .sosmed a {
-  background-color: #26499a;
+  background-color: #0173d1;
   color: white;
   width: 30px;
   height: 30px;
@@ -113,7 +113,7 @@ body {
 }
 
 .link .secon-link a {
-  background-color: #26499a;
+  background-color: #073c64;
   color: #fff;
   text-decoration: none;
   margin: 0 0 10px 0;
@@ -125,7 +125,7 @@ body {
 }
 
 .link .secon-link a:hover {
-  background-color: #26499a;
+  background-color: #0170b9;
   transition: all 0.5s ease;
 }
 
@@ -138,7 +138,7 @@ body {
 
 .footer {
   margin-top: 180px;
-  background-color: #26499a;
+  background-color: #073c64;
   height: 50px;
   display: flex;
   justify-content: center;

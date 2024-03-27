@@ -105,13 +105,13 @@ hr{
 }
 
 .btn a p{
-    font-size: 8px;
+    font-size: 12px;
     color: #fff;
     background-color: #0500FF;
     margin: 0 10px;
     padding: 3px 7px;
     border-radius: 5px;
 }
-.btn  p:hover{
+.btn a p:hover{
     background-color: #6b68fd;
 }

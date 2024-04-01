@@ -115,5 +115,5 @@ hr{
 .btn a p:hover{
     color: #4b82f8;
     background-color: #fff;
-    transform: translateX(0.25rem);
+    transition: 0.3s ease;
 }
